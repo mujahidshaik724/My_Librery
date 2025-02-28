@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My_Librery</title>
+</head>
+<body>
+    <div class="header">
+        <h1>My Librery</h1>
+    </div>
+    <div class="container">
+        <button id="add-book-btn" class="addbook">AddBook</button>
+        <form id="book-form" style="display: none;">
+            <input type="text" id="book-name" placeholder="Book Name" required>
+            <input type="number" id="book-pages" placeholder="Pages" required>
+            <label for="book-read">Read:</label>
+            <input type="checkbox" id="book-read">
+            <button type="submit" id="confirm-btn">Confirm</button>
+            <button type="button" id="cancel">Cancel</button>
+        </form>
+        <div class="books-container" id="book-list"></div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Mujahid Shaik. All rights reserved.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
